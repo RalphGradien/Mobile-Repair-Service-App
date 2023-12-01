@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
 
     android:background="@drawable/bg_activity"
-    tools:context=".Customer_Registration">
+    tools:context=".customer.Customer_Registration">
 
     <EditText
         android:id="@+id/ProviderName"
@@ -14,7 +14,7 @@
         android:layout_height="48dp"
         android:layout_marginTop="10dp"
         android:textSize="18dp"
-        android:background="#E3BA12"
+        android:background="#C0CCD9"
         android:hint="@string/hint_Name"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -25,7 +25,7 @@
         android:layout_width="250dp"
         android:layout_height="48dp"
         android:layout_marginTop="10dp"
-        android:background="#E3BA12"
+        android:background="#C0CCD9"
         android:hint="@string/hint_Address"
         android:textSize="18dp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -37,7 +37,7 @@
         android:layout_width="250dp"
         android:layout_height="48dp"
         android:layout_marginTop="10dp"
-        android:background="#E3BA12"
+        android:background="#C0CCD9"
         android:hint="@string/hint_Contact"
         android:textSize="18dp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -49,7 +49,7 @@
         android:layout_width="250dp"
         android:layout_height="48dp"
         android:layout_marginTop="10dp"
-        android:background="#E3BA12"
+        android:background="#C0CCD9"
         android:hint="@string/hint_Email"
         android:textSize="18dp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -76,7 +76,7 @@
         android:layout_width="250dp"
         android:layout_height="48dp"
         android:layout_marginTop="10dp"
-        android:background="#E3BA12"
+        android:background="#C0CCD9"
         android:hint="@string/hint_password"
         android:inputType="textPassword"
         android:textSize="18dp"
@@ -90,7 +90,7 @@
         android:layout_width="250dp"
         android:layout_height="48dp"
         android:layout_marginTop="10dp"
-        android:background="#E3BA12"
+        android:background="#C0CCD9"
         android:hint="@string/hint_confirmPassword"
         android:inputType="textPassword"
         android:textSize="18dp"
@@ -148,6 +148,6 @@
         app:layout_constraintHorizontal_bias="0.502"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/verticallogo" />
+        app:srcCompat="@drawable/a4" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

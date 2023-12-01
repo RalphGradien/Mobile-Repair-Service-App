@@ -12,6 +12,9 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
 
+import com.example.carserviceandroidapp.customer.Customer;
+import com.example.carserviceandroidapp.service.ServiceProvider;
+
 import java.util.Properties;
 
 import javax.mail.MessagingException;

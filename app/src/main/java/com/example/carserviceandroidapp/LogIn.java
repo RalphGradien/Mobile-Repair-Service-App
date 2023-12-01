@@ -2,7 +2,6 @@ package com.example.carserviceandroidapp;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import android.app.Service;
 import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
@@ -11,6 +10,13 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
+
+import com.example.carserviceandroidapp.customer.Customer;
+import com.example.carserviceandroidapp.customer.CustomerMainMenu;
+import com.example.carserviceandroidapp.customer.Customer_Registration;
+import com.example.carserviceandroidapp.provider.Provider_Registration;
+import com.example.carserviceandroidapp.service.ServiceMainMenu;
+import com.example.carserviceandroidapp.service.ServiceProvider;
 
 public class LogIn extends AppCompatActivity {
 

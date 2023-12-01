@@ -14,7 +14,7 @@
 
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        tools:context=".Customer_EditAppointment_Form">
+        tools:context=".customer.Customer_EditAppointment_Form">
 
 
         <EditText

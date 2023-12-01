@@ -13,7 +13,7 @@
 
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        tools:context=".Customer_EditAppointment">
+        tools:context=".customer.Customer_EditAppointment">
 
         <TextView
             android:paddingStart="10dp"

@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Provider_Registration">
+    tools:context=".provider.Provider_Registration">
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/constraintLayout"
@@ -18,7 +18,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="1.0"
-        tools:context=".Customer_Registration">
+        tools:context=".customer.Customer_Registration">
 
         <EditText
             android:id="@+id/ProviderTitle"
@@ -67,7 +67,7 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:srcCompat="@drawable/verticallogo" />
+            app:srcCompat="@drawable/a4" />
 
         <com.google.android.material.card.MaterialCardView
             android:id="@+id/ProviderServices"
@@ -75,7 +75,7 @@
             android:layout_height="0dp"
             android:layout_marginBottom="143dp"
             android:textColor="#100F0F"
-            app:cardBackgroundColor="#E2B912"
+            app:cardBackgroundColor="#C0CCD9"
             app:cardElevation="10dp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="@+id/ServiceProviderCity"

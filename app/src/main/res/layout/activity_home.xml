@@ -50,8 +50,8 @@
 
     <ImageView
         android:id="@+id/imageView3"
-        android:layout_width="250dp"
-        android:layout_height="0dp"
+        android:layout_width="332dp"
+        android:layout_height="153dp"
         android:layout_marginTop="391dp"
         android:layout_marginBottom="100dp"
         android:adjustViewBounds="true"
@@ -60,5 +60,5 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/horizontallogo" />
+        app:srcCompat="@drawable/a1" />
 </androidx.constraintlayout.widget.ConstraintLayout>

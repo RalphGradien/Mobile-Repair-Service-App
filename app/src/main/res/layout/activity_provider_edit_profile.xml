@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:accessibilityPaneTitle="Hello"
-    tools:context=".CustomerEditProfile"
+    tools:context=".customer.CustomerEditProfile"
     tools:layout_editor_absoluteX="-3dp"
     tools:layout_editor_absoluteY="-75dp">
 

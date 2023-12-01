@@ -5,13 +5,12 @@
     android:id="@+id/testId"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/bg_activity"
     tools:context="com.example.carserviceandroidapp.LogIn">
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="146dp"
-        android:layout_height="0dp"
+        android:layout_width="286dp"
+        android:layout_height="170dp"
         android:layout_marginTop="71dp"
         android:layout_marginBottom="34dp"
         android:adjustViewBounds="true"
@@ -20,7 +19,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/verticallogo" />
+        app:srcCompat="@drawable/a1" />
 
     <Button
 
@@ -40,7 +39,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="12dp"
-        android:background="@drawable/rounded_yellow_formbox"
+        android:background="@drawable/rounded_blue_formbox"
         android:paddingStart="8dp"
         android:ems="10"
         android:hint="@string/loginPassword"
@@ -57,7 +56,7 @@
 
         android:ems="10"
         android:hint="@string/loginEmail"
-        android:background="@drawable/rounded_yellow_formbox"
+        android:background="@drawable/rounded_blue_formbox"
         android:paddingStart="8dp"
         android:inputType="textEmailAddress"
         app:layout_constraintBottom_toTopOf="@+id/passwordTxt"

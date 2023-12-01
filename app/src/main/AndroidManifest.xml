@@ -29,10 +29,10 @@
                 android:resource="@xml/file_paths" />
         </provider>
         <activity
-            android:name=".Provider_Edit_Appointment"
+            android:name=".provider.Provider_Edit_Appointment"
             android:exported="false" />
         <activity
-            android:name=".Provider_Appointment"
+            android:name=".provider.Provider_Appointment"
             android:exported="false" />
         <activity
             android:name=".PlainActivity"
@@ -42,7 +42,7 @@
                 android:value="" />
         </activity>
         <activity
-            android:name=".Customer_EditAppointment_Form"
+            android:name=".customer.Customer_EditAppointment_Form"
             android:exported="false"
             android:label="Edit Appointment">
             <meta-data
@@ -50,27 +50,27 @@
                 android:value="" />
         </activity>
         <activity
-            android:name=".Provider_Registration"
+            android:name=".provider.Provider_Registration"
             android:exported="false"
             android:label="Service Provider Registration" />
         <activity
-            android:name=".CustomerScheduleDropOff"
+            android:name=".customer.CustomerScheduleDropOff"
             android:exported="false"
             android:label="Appointment Booking" />
         <activity
-            android:name=".CustomerFindServiceProviderLocation"
+            android:name=".customer.CustomerFindServiceProviderLocation"
             android:exported="false"
             android:label="Find a Service Provider" />
         <activity
-            android:name=".CustomerFindServiceProviderList"
+            android:name=".customer.CustomerFindServiceProviderList"
             android:exported="false"
             android:label="Find a Service Provider" />
         <activity
-            android:name=".CustomerEditProfile"
+            android:name=".customer.CustomerEditProfile"
             android:exported="false"
             android:label="Edit Profile" />
         <activity
-            android:name=".Customer_ServiceHistoryView"
+            android:name=".customer.Customer_ServiceHistoryView"
             android:exported="false"
             android:label="History">
             <meta-data
@@ -78,22 +78,22 @@
                 android:value="" />
         </activity>
         <activity
-            android:name=".Provider_EditProfile"
+            android:name=".provider.Provider_EditProfile"
             android:exported="false"
             android:label="Edit Profile" />
         <activity
-            android:name=".ServiceHistory"
+            android:name=".service.ServiceHistory"
             android:exported="false"
             android:label="History" />
         <activity
-            android:name=".ServiceMainMenu"
+            android:name=".service.ServiceMainMenu"
             android:exported="false" />
         <activity
             android:name=".LogIn"
             android:exported="false"
             android:label="Login" />
         <activity
-            android:name=".CustomerMainMenu"
+            android:name=".customer.CustomerMainMenu"
             android:exported="false" />
         <activity
             android:name=".About"
@@ -104,7 +104,7 @@
             android:exported="false"
             android:label="Forgot Password" />
         <activity
-            android:name=".Customer_EditAppointment"
+            android:name=".customer.Customer_EditAppointment"
             android:exported="false"
             android:label="Edit Appointment">
             <meta-data
@@ -112,7 +112,7 @@
                 android:value="" />
         </activity>
         <activity
-            android:name=".Customer_AppointmentsView"
+            android:name=".customer.Customer_AppointmentsView"
             android:exported="false"
             android:label="Appointments">
             <meta-data
@@ -120,7 +120,7 @@
                 android:value="" />
         </activity>
         <activity
-            android:name=".Customer_Registration"
+            android:name=".customer.Customer_Registration"
             android:exported="false"
             android:label="Customer Registration">
             <meta-data

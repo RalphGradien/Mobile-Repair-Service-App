@@ -10,10 +10,8 @@
         android:id="@+id/imageView7"
         android:layout_width="332dp"
         android:layout_height="0dp"
-        android:layout_marginTop="416dp"
-        android:layout_marginBottom="124dp"
+        android:layout_marginTop="336dp"
         android:adjustViewBounds="true"
-        app:layout_constraintBottom_toTopOf="@+id/aboutBtn"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.493"
         app:layout_constraintStart_toStartOf="parent"
@@ -28,20 +26,20 @@
         android:layout_marginBottom="100dp"
         android:adjustViewBounds="true"
         android:cropToPadding="true"
-        app:layout_constraintBottom_toTopOf="@+id/loginBtn"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/horizontallogo" />
+        app:srcCompat="@drawable/a1" />
 
     <TextView
         android:id="@+id/textView3"
-        android:layout_width="355dp"
-        android:layout_height="235dp"
+        android:layout_width="361dp"
+        android:layout_height="174dp"
         android:layout_marginTop="11dp"
         android:gravity="center"
         android:text="@string/aboutTxt"
+        android:textSize="40sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView5" />

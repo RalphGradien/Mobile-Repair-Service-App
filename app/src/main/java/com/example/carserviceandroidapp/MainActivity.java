@@ -4,20 +4,11 @@ package com.example.carserviceandroidapp;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
-import android.graphics.Canvas;
-import android.graphics.Color;
-import android.graphics.Paint;
-import android.graphics.pdf.PdfDocument;
 import android.os.Bundle;
-import android.os.Environment;
 import android.view.View;
 import android.widget.Button;
-import android.widget.Toast;
 
-import java.io.File;
-import java.io.FileNotFoundException;
-import java.io.FileOutputStream;
-import java.io.IOException;
+import com.example.carserviceandroidapp.customer.Customer_Registration;
 
 public class MainActivity extends AppCompatActivity {
     DBHelper DB;
