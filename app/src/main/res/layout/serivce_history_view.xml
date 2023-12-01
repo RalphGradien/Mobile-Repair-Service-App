@@ -139,7 +139,7 @@
         android:text="2022-04-14"
         android:layout_marginRight="10dp"
         android:textStyle="bold"
-        android:textColor="#65CF72"/>
+        android:textColor="#2196F3"/>
     <TextView
         android:id="@+id/pickupDate"
         android:layout_width="wrap_content"
@@ -149,7 +149,7 @@
         android:text="2022-04-12"
         android:layout_marginRight="10dp"
         android:textStyle="bold"
-        android:textColor="#65CF72"/>
+        android:textColor="#2196F3"/>
     <TextView
         android:id="@+id/dropOffDate"
         android:layout_width="wrap_content"
@@ -159,7 +159,7 @@
         android:layout_marginRight="10dp"
         android:text="2022-04-11"
         android:textStyle="bold"
-        android:textColor="#65CF72"/>
+        android:textColor="#2196F3"/>
 
 
 </RelativeLayout>

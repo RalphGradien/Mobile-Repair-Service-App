@@ -83,7 +83,7 @@
         android:text=""
         android:textAlignment="center"
         android:layout_marginRight="20dp"
-        android:textColor="@android:color/holo_orange_light" />
+        android:textColor="#E6BE44" />
 
 
     <TextView
@@ -106,7 +106,7 @@
         android:layout_toEndOf="@+id/histdropofflabel"
         android:text="2022-04-14"
         android:textAlignment="textEnd"
-        android:textColor="#65CF72" />
+        android:textColor="#2196F3" />
 
     <TextView
         android:id="@+id/histpickuplabel"
@@ -128,7 +128,7 @@
         android:layout_toEndOf="@+id/histdropofflabel"
         android:text="2022-05-10"
         android:textAlignment="textEnd"
-        android:textColor="#65CF72" />
+        android:textColor="#2196F3" />
 
     <LinearLayout
         android:layout_width="match_parent"
