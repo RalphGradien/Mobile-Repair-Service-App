@@ -25,7 +25,7 @@ public class home extends AppCompatActivity {
                 if (DB.isDatabaseEmpty()) {
                     // Insert User Data
                     DB.insertuserdata("Liam Johnson", "pass123", "user1@gmail.com", "9876543210", "123 Maple St");
-                    DB.insertuserdata("Emma Smith", "pass123", "user2@gmail.com", "1234567890", "456 Oak Ave");
+                    DB.insertuserdata("Emma Smith", "pass123", "thienphuocufo@yahoo.com.vn", "1234567890", "456 Oak Ave");
                     DB.insertuserdata("Noah Tremblay", "pass123", "user3@gmail.com", "5555555555", "789 Pine Ln");
                     DB.insertuserdata("Olivia Gagnon", "pass123", "user4@gmail.com", "1112223333", "321 Birch St");
                     DB.insertuserdata("Liam Johnson", "pass123", "user5@gmail.com", "7777777777", "654 Cedar Rd");
@@ -67,10 +67,10 @@ public class home extends AppCompatActivity {
                     DB.insertServiceList("SP_1_5", 1, 5);
                     DB.insertServiceList("SP_1_6", 1, 6);
 
-                    DB.insertServiceList("SP_2_1", 2, 1);
-                    DB.insertServiceList("SP_2_2", 2, 2);
-                    DB.insertServiceList("SP_2_6", 2, 6);
-                    DB.insertServiceList("SP_2_7", 2, 7);
+                    DB.insertServiceList("SP_2_1", 1, 1);
+                    DB.insertServiceList("SP_2_2", 1, 2);
+                    DB.insertServiceList("SP_2_6", 1, 6);
+                    DB.insertServiceList("SP_2_7", 1, 7);
 
                     DB.insertServiceList("SP_3_3", 3, 3);
                     DB.insertServiceList("SP_3_1", 3, 1);
@@ -116,9 +116,9 @@ public class home extends AppCompatActivity {
                     DB.insertAppointment(1, 1, "", "", "", "11/17/2023 01:00 PM",
                             "123 Main St", "11/15/2023", "", "Pick Up", "Ongoing");
 
-                    DB.insertAppointment(1, 2, "11/20/2023 02:30 PM", "Abbotsford, Surrey, BC, V4G 3G7", "11/19/2023", "11/16/2023 11:00 AM",
+                    DB.insertAppointment(1, 1, "11/20/2023 02:30 PM", "Abbotsford, Surrey, BC, V4G 3G7", "11/19/2023", "11/16/2023 11:00 AM",
                             "123 Main St", "11/15/2023", "", "Drop Off", "Completed");
-                    DB.insertAppointment(5, 2, "11/20/2023 02:30 PM", "Abbotsford, Surrey, BC, V4G 3G7", "11/19/2023", "11/16/2023 11:00 AM",
+                    DB.insertAppointment(5, 1, "11/20/2023 02:30 PM", "Abbotsford, Surrey, BC, V4G 3G7", "11/19/2023", "11/16/2023 11:00 AM",
                             "123 Main St", "11/15/2023", "", "Drop Off", "Cancelled");
 
                     DB.insertAppointment(1, 4, "12/13/2023 03:30 PM", "Granville street, Vancouver, BC, V6H 3K4", "12/11/2023", "12/10/2023 11:00 AM",
@@ -133,7 +133,7 @@ public class home extends AppCompatActivity {
                     DB.insertAppointment(2, 1, "", "", "", "11/17/2023 01:00 PM",
                             "456 Oak Ave88", "11/11/2023", "", "Pick Up", "Ongoing");
 
-                    DB.insertAppointment(2, 2, "12/20/2023 02:30 PM", "Abbotsford, Surrey, BC, V4G 3G7", "12/19/2023", "12/16/2023 11:00 AM",
+                    DB.insertAppointment(2, 1, "12/20/2023 02:30 PM", "Abbotsford, Surrey, BC, V4G 3G7", "12/19/2023", "12/16/2023 11:00 AM",
                             "456 Oak Ave88", "12/15/2023", "", "Drop Off", "Completed");
 
                     DB.insertAppointment(2, 4, "12/19/2023 03:30 PM", "Granville street, Vancouver, BC, V6H 3K4", "12/15/2023", "12/10/2023 11:00 AM",

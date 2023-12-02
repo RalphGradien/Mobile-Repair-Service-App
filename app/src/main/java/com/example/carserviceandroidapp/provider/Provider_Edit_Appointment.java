@@ -130,7 +130,7 @@ public class Provider_Edit_Appointment extends AppCompatActivity {
                             message.setFrom(new InternetAddress(username));
                             message.setRecipients(Message.RecipientType.TO,
                                     InternetAddress.parse("ralphgradien01@gmail.com"));
-                            message.setSubject("Car Service Remind");
+                            message.setSubject("Mobile Repair Service Remind");
                             message.setText("Dear " + v_customerName + ",\n\n" +
                                     "This is a reminder email about the service you booked at our company. \n\n" +
                                     "Service booked              : " + v_selectedServices + "\n" +

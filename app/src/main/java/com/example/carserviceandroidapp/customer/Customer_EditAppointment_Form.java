@@ -425,8 +425,8 @@ public class Customer_EditAppointment_Form extends AppCompatActivity {
                                 message.setRecipients(Message.RecipientType.TO,
                                         InternetAddress.parse(stringReceiverEmail));
                                 message.setSubject("Appointment Update");
-                                message.setText("Hello "+spNameArr[0]+", \n\nThis is to inform that there are changes to Appointment ID: "+appIdArr[0]+". Check GARK to view the changes"+
-                                        ". \n\n Cheers!\nGARK");
+                                message.setText("Hello "+spNameArr[0]+", \n\nThis is to inform that there are changes to Appointment ID: "+appIdArr[0]+". Check your application to view the changes"+
+                                        ". \n\n Cheers!\n");
 
 
                                 Transport.send(message);

@@ -278,7 +278,7 @@ public class CustomerScheduleDropOff extends AppCompatActivity {
                             message.setRecipients(Message.RecipientType.TO,
                                     InternetAddress.parse(custEmail));
                             message.setSubject("Subject: Booking Appointment Confirmation");
-                            message.setText("Hello, " + userName + "\n\nThis is a confirmation email regarding the appointment you booked at our Service Provider. Here are the details" +
+                            message.setText("Hello, " + userName + "\n\nThis is a confirmation email regarding the appointment you booked at mobile service repair. Here are the details" +
                                     "\n\nService Booked   :   " + ServiceDetail +
                                     "\nBooking Time  :   " + BookingDate +
                                     "\nAppointment type  :   " + appointmentType +

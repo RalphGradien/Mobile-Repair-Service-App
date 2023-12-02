@@ -197,7 +197,7 @@ public class Customer_EditAppointment extends AppCompatActivity {
                                            message.setSubject("APPOINTMENT CANCELLATION MESSAGE");
 
                                            message.setText("Hello "+spNameArr[0]+", \n\nThis is to inform that Appointment "+appIDArr[0]+" set on "+dropOffDateTimeArr[0]+
-                                                       " has been cancelled by the Customer.  Check you GARK account for details. \n\n Cheers!\nGARK");
+                                                       " has been cancelled by the Customer.  Check your account for details. \n\n Cheers!");
 
                                            Transport.send(message);
                                            Log.i(TAG, "Email sent successfully");
@@ -275,10 +275,10 @@ public class Customer_EditAppointment extends AppCompatActivity {
 
                             if(textViewPickupDT.getText().toString().replace(" ","").isEmpty()){
                                 message.setText("Hello "+spNameArr[0]+", \n\nThis a reminder of the "+appTypeArr[0] +" appointment set on "+dropOffDateTimeArr[0]+
-                                " under Appointment ID "+appIDArr[0]+". "+"Check your GARK account for details. \n\n Cheers!\nGARK");
+                                " under Appointment ID "+appIDArr[0]+". "+"Check your account for details. \n\n Cheers!\n");
                             }else{
                                 message.setText("Hello "+spNameArr[0]+", \n\nThis a reminder of our after-servicing pickup appointment on "+pickUpDateTimeArr[0]+
-                                " under Appointment ID "+appIDArr[0]+". "+"Check your GARK account for details. \n\n Cheers!\nGARK");
+                                " under Appointment ID "+appIDArr[0]+". "+"Check your account for details. \n\n Cheers!\n");
                                  }
 
                             Transport.send(message);
