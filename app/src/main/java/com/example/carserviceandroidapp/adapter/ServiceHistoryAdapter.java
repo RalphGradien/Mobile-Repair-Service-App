@@ -26,8 +26,6 @@ public class ServiceHistoryAdapter extends RecyclerView.Adapter<ServiceHistoryVi
         this.items = items;
     }
 
-//    public ServiceHistoryAdapter(Context applicationContext) {}
-
     @NonNull
     @Override
     public ServiceHistoryViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {

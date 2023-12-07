@@ -83,7 +83,7 @@ public class Customer_AppointmentsView extends Fragment implements CustomerAppoi
                         String pickupDT = cursorAppointment.getString(cursorAppointment.getColumnIndexOrThrow("PickUpDateTime"));
                         String pickupLoc = cursorAppointment.getString(cursorAppointment.getColumnIndexOrThrow("PickUpLocation"));
                         String appType = cursorAppointment.getString(cursorAppointment.getColumnIndexOrThrow("AppointmentType"));
-//
+
                         if (cursorAppDetail.getCount() > 0) {
                             cursorAppDetail.moveToPosition(-1);
                             while (cursorAppDetail.moveToNext()) {
@@ -152,5 +152,5 @@ public class Customer_AppointmentsView extends Fragment implements CustomerAppoi
         startActivity(intent);
     }
 
-  //  public abstract View onCreate(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState);
+
 }

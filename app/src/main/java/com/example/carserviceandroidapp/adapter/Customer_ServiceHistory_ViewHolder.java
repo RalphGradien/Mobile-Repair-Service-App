@@ -25,10 +25,8 @@ public class Customer_ServiceHistory_ViewHolder extends RecyclerView.ViewHolder 
         tvhistbookingStatus = itemView.findViewById(R.id.histbookingStatus);
         tvhistdropofflabel = itemView.findViewById(R.id.histdropofflabel);
         tvhistdropoffAppointmentDate = itemView.findViewById(R.id.histdropoffAppointmentDate);
-        //tvhistcustomDropOffTime = itemView.findViewById(R.id.histcustomDropOffTime);
         tvhistpickuplabel = itemView.findViewById(R.id.histpickuplabel);
         tvhistpickupAppointmentDate = itemView.findViewById(R.id.histpickupAppointmentDate);
-       // tvhistcustomPickupTime = itemView.findViewById(R.id.histcustomPickupTime);
         tvhistcustomAppointmentType = itemView.findViewById(R.id.histserviceAppointType);
     }
 }

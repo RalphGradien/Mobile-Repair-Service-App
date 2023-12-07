@@ -229,9 +229,6 @@ public class CustomerScheduleDropOff extends AppCompatActivity {
                 ServiceList = "SP_" + spID + "_" + sdID ;
                  if(radioButton3.isChecked()) DropoffLocation = otherText.getText().toString();
 
-//                if(SpinServiceLocation.getSelectedItem().toString().equals("Drop Off")) { DropoffLocation = fullLoc;}
-//                else {DropoffLocation = custLoc;}
-//                appointmentType = SpinServiceLocation.getSelectedItem().toString();
                 BookingDate = CurrDate;AppointmentStatus = "Ongoing";
                 DB.insertAppointment(userID,spID,pickupDateTime,pickupLocation,pickupReadyDate,DropoffTimeDate
                         ,DropoffLocation,BookingDate,CancelledDate,appointmentType,AppointmentStatus);

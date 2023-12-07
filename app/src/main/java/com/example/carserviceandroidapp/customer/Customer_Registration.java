@@ -181,11 +181,4 @@ public class Customer_Registration extends AppCompatActivity {
        startActivity(intent);
     }
 
-//    public void onClickToHistoryView(View v){
-//        Intent intent = new Intent(Customer_Registration.this, Customer_ServiceHistoryView.class);
-//        startActivity(intent);
-//    }
-
-
-
 }

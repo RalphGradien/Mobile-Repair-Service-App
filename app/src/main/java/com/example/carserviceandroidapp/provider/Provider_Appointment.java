@@ -68,14 +68,14 @@ public class Provider_Appointment extends Fragment implements ProviderAppointmen
                             }
                         }
 
-//                            spAddress = cusAddress;
+
                         appointmentStatus = cursorAppointment.getString(cursorAppointment.getColumnIndexOrThrow("AppointmentStatus"));
                         dropOffDateTime = cursorAppointment.getString(cursorAppointment.getColumnIndexOrThrow("DropOffTimeDate"));
                         dropOffLocation = cursorAppointment.getString(cursorAppointment.getColumnIndexOrThrow("DropOffLocation"));
                         pickUpDateTime = cursorAppointment.getString(cursorAppointment.getColumnIndexOrThrow("PickUpDateTime"));
                         pickUpLocation = cursorAppointment.getString(cursorAppointment.getColumnIndexOrThrow("PickUpLocation"));
                         serviceType = cursorAppointment.getString(cursorAppointment.getColumnIndexOrThrow("AppointmentType"));
-//
+
                         if (cursorAppDetail.getCount() > 0) {
                             cursorAppDetail.moveToPosition(-1);
                             while (cursorAppDetail.moveToNext()) {

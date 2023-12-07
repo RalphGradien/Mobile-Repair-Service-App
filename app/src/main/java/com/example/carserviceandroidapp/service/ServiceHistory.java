@@ -218,7 +218,7 @@ public class ServiceHistory extends Fragment {
 
 
             // Load the logo drawable
-            Drawable logoDrawable = getResources().getDrawable(R.drawable.verticallogo);
+            Drawable logoDrawable = getResources().getDrawable(R.drawable.a3);
 
             // Convert the drawable to a bitmap
             Bitmap logoBitmap = ((BitmapDrawable) logoDrawable).getBitmap();
