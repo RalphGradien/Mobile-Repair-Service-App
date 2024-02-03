@@ -72,46 +72,22 @@ In the development of our mobile application, we employ a strategic selection of
 ### 3. Class Diagram
 
 ## VI. IMPLEMENTATION
-### Screenshots of Code
 #### - CustomAdapter Class
-*Insert screenshot here*
-
 #### - CustomerFindServiceProviderList
-*Insert screenshot here*
-
 #### - Customer_EditAppointment
-*Insert screenshot here*
-
 #### - DBHelper
-*Insert screenshot here*
-
 #### - LogIn
-*Insert screenshot here*
-
 #### - MainActivity
-*Insert screenshot here*
 
 ## VII. TESTING
 Dynamic testing involves the assessment of the software's behavior, functionality, and performance while it is actively running. This type of testing allows you to observe how the application responds to various inputs, conditions, and user interactions in real-time.
 
 ### - Testing Database with Registration and Login Functionality
-*Insert screenshot here*
-
 ### - Testing Search Function
-*Insert screenshot here*
-
 ### - Testing Appointment Booking
-*Insert screenshot here*
-
 ### - Testing Appointment Editing
-*Insert screenshot here*
-
 ### - Testing Filter Features of Service Provider
-*Insert screenshot here*
-
 ### - Testing Generate Report Feature with Filter and No Filter
-*Insert screenshot here*
-
 ## VIII. USER GUIDE
 The user guide provides comprehensive information for both customers and service providers to understand the application's functionalities and features.
 
